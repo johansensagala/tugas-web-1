@@ -1,0 +1,63 @@
+body {
+    background-image: url(love-bg.jpg);
+}
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:red;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 7px;
+    text-decoration: none;
+    background-color: white;
+    font-weight:500;
+}
+
+.one {
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-left: 75px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 20px;
+    font-weight: 400;
+}
+
+.special {
+    font-family: "Sofia", sans-serif;
+    font-size:x-large;
+    display: block;
+}
+
+.two {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px 75px;
+    text-align: right;
+    letter-spacing: 3px;
+    background-color: white;
+    border: 5px;
+    border-color: red;
+    border-style: dashed;
+    color: red;
+    margin-right: 75px;
+    font-weight:bolder;
+}
+
+.three {
+    background-image: url(bg-love.jpg);
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    width: 626px;
+    height: 300px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.love {
+    font-family: "Rochester", sans-serif;
+    font-size: 75px;
+    color: red;
+}

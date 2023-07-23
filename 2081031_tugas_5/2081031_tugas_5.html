@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML Form
+        </title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><img src="LogoFTI-UNAI.png" alt="Logo FTI UNAI" width="200" height="65" align="left" align="top"></td> 
+                <td><h1>Fakultas Teknologi Informasi</h1></td>
+            </tr>
+        </table>
+        <h2><u>Formulir Biodata</u></h2>
+        <p>Masukkan biodata anda dibawah ini</p>
+        <table><form action="/action_page.php">
+            <tr>
+                <td><label>Nama Depan</label></td>
+                <td>:<input type="text" name="namadepan" placeholder="Ketikkan nama depan"></td>
+            </tr>
+            <tr>
+                <td><label>Nama Belakang</label></td>
+                <td>:<input type="text" name="namabelakang" placeholder="Ketikkan nama belakang"></td>
+            </tr>
+            <tr>
+                <td><label>Tanggal Lahir</label></td>
+                <td>:<input type="date" name="tanggal"></td>
+            </tr>
+            <tr>
+                <td><label>NIM</label></td>
+                <td>:<input type="NIM name="NIM" placeholder="Ketikkan NIM anda"></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td>:<input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td>:<input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label>Jenis Kelamin</label></td>
+                <td>:<label><input type="radio" name="jeniskelamin" value="lakilaki">Laki-laki</label>
+                    <label><input type="radio" name="jeniskelamin" value="perempuan">Perempuan</label></td>
+            </tr>
+            <tr>
+                <td><label>Jenis Kelamin</label></td>
+                <td>:<label><input type="checkbox" name="hobby1" value="olahraga">Olahraga</label>
+                    <label><input type="checkbox" name="hobby2" value="buatlagu">Buat lagu</label>
+                    <label><input type="checkbox" name="hobby3" value="mainmusik">Main musik</label></td>
+            </tr>
+            <tr>
+                <td><label>Agama</label>
+                <td>:<select name="agama">
+                    <option value="pilihagama">Pilih Agama</option>
+                    <option value="kristenprotestan">Kristen Protestan</option>
+                    <option value="katolik">Katolik</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Komentar</label></td>
+                <td>:<textarea name="komentar" placeholder="Isi komentar anda disini"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Simpan"></inputtype>
+                    <input type="reset" value="Reset"></inputtype>
+                </td>
+            </tr>
+        </table>
+    </form></body>
+</html>

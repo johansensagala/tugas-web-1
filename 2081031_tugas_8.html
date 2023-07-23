@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absensi Mahasiswa</title>
+    <style>
+        table{
+            width: 750px;
+            font-family: Arial, Helvetica, sans-serif;  
+        }
+        table, tr, td{
+            padding: 7px;
+        }
+        table, tr{
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center;
+        }
+        td.name{
+            text-align: left;
+        }
+        th{
+            height: 30px;
+            vertical-align: bottom;
+        }
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+        tr.red:hover{
+            background-color: #ffa;
+        }
+        tr.blue:hover{
+            background-color: #ffa;
+        }
+        tr.red{
+            background-color: #faa;
+        }
+    </style>
+</head>
+<body>
+    <table><form action="/action_page.php">
+        <tr>
+            <th>No.</th>
+            <th>NIM</th>
+            <th>Nama</th>
+            <th>Absensi</th>
+        </tr>
+        <tr class="red">
+            <td>1.</td>
+            <td>1981014</td>
+            <td class="name">Aksem Benu</td>
+            <td><select name="absensi">
+                <option value="hadir">(H) Hadir</option>
+                <option value="alpha">(A) Alpha</option>
+                <option value="izin">(I) Izin</option>
+                <option value="sakit">(S) Sakit</option>
+            </select></td>
+        </tr>
+        <tr class="blue">
+            <td>2.</td>
+            <td>1981014</td>
+            <td class="name">Alfredo Ginting</td>
+            <td><select name="absensi">
+                <option value="hadir">(H) Hadir</option>
+                <option value="alpha">(A) Alpha</option>
+                <option value="izin">(I) Izin</option>
+                <option value="sakit">(S) Sakit</option>
+            </select></td>
+        </tr>
+        <tr class="blue">
+            <td>3.</td>
+            <td>1981019</td>
+            <td class="name">Amos Charlie</td>
+            <td><select name="absensi">
+                <option value="hadir">(H) Hadir</option>
+                <option value="alpha">(A) Alpha</option>
+                <option value="izin">(I) Izin</option>
+                <option value="sakit">(S) Sakit</option>
+            </select></td>
+        </tr>
+        <tr class="blue">
+            <td>4.</td>
+            <td>1981027</td>
+            <td class="name">Ani Reformaisyah Wakum</td>
+            <td><select name="absensi">
+                <option value="hadir">(H) Hadir</option>
+                <option value="alpha">(A) Alpha</option>
+                <option value="izin">(I) Izin</option>
+                <option value="sakit">(S) Sakit</option>
+            </select></td>
+        </tr>
+        <tr class="blue">
+            <td>5.</td>
+            <td>1981018</td>
+            <td class="name">Beny Ijasius Limbong</td>
+            <td><select name="absensi">
+                <option value="hadir">(H) Hadir</option>
+                <option value="alpha">(A) Alpha</option>
+                <option value="izin">(I) Izin</option>
+                <option value="sakit">(S) Sakit</option>
+            </select></td>
+        </tr>
+        <tr class="blue">
+            <td>6.</td>
+            <td>1981031</td>
+            <td class="name">Chandra Oliver Sijabat</td>
+            <td><select name="absensi">
+                <option value="hadir">(H) Hadir</option>
+                <option value="alpha">(A) Alpha</option>
+                <option value="izin">(I) Izin</option>
+                <option value="sakit">(S) Sakit</option>
+            </select></td>
+        </tr>
+        <tr class="blue">
+            <td>7.</td>
+            <td>1981024</td>
+            <td class="name">Daud Simanjuntak</td>
+            <td><select name="absensi">
+                <option value="hadir">(H) Hadir</option>
+                <option value="alpha">(A) Alpha</option>
+                <option value="izin">(I) Izin</option>
+                <option value="sakit">(S) Sakit</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td colspan="3" class="name">Simpan Absen</td>
+            <td><input type="submit" value="Simpan Absen"></inputtype></td>
+        </tr></form>
+    </table>    
+</body>
+</html>
