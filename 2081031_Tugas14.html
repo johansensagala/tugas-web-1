@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 14</title>
+</head>
+<body onload="waiting()">
+    <p>Apa nama jurusan anda?</p>
+    <select id="a" onchange="myFunction()">
+        <option value="TeknikInformatika">Teknik Informatika</option>
+        <option value="SistemInformasi">Sistem Informasi</option>
+        <option value="Manajemen">Manajemen</option>
+        <option value="Akuntansi">Akuntansi</option>
+    </select>
+
+    <p>Arahkan kursor ke jurusan anda!</p>
+    <p id="b" onmouseenter="mouseEnter()" onmouseleave="mouseLeave()">Teknik Informatika</p>
+    <script>
+        function mouseEnter(){
+            document.getElementById("b").style.color="blue";
+        }
+        function mouseLeave(){
+            document.getElementById("b").style.color="black";
+        }
+    </script>
+
+    <button onkeydown="keyDown()">Don't press this button</button>
+    <script>
+        function keyDown() {
+            alert("You have broken the rules. You will have the consequence.");
+        }
+    </script>
+
+    <script>
+        function waiting() {
+            alert("Please wait!");
+        }
+    </script>
+</body>
+</html>

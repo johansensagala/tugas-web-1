@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 15</title>
+</head>
+<body>
+    <script>
+        function myFunction() {
+            alert("Ini adalah Tugas 15!");
+        }
+        myFunction();
+
+        document.write("<h3>Description</h3>");
+    </script>
+
+    <p id="func"></p>
+
+    <script>
+        function myFunction2(x) {
+            return x;
+        }
+        document.getElementById("func").innerHTML = myFunction2("Mahasiswa");
+    </script>
+
+    <p id="obj1"></p>
+    <p id="obj2"></p>
+    <p id="obj3"></p>
+    <p id="obj4"></p>
+    <p id="obj5"></p>
+
+    <script>
+    const mahasiswa = {name: "Johansen Sagala", age: "20", major: "Informatics Engineering", province: "North Sumatera", country: "Indonesia"};
+    
+    document.getElementById("obj1").innerHTML = "My name is " + mahasiswa.name;
+    document.getElementById("obj2").innerHTML = "I am " + mahasiswa.age + " years old";
+    document.getElementById("obj3").innerHTML = "My major is " + mahasiswa.major;
+    document.getElementById("obj4").innerHTML = "I live in " + mahasiswa.province + " province";
+    document.getElementById("obj5").innerHTML = "My country absolutely is " + mahasiswa.country;
+    </script><br>
+
+    <div>My hobbies in 2015:</div>
+    <div id="arr1"></div><br>
+    <div>My hobbies in 2016:</div>
+    <div id="arr2"></div><br>
+    <div>My hobbies in 2017:</div>
+    <div id="arr3"></div><br>
+    <div>My hobbies in 2018:</div>
+    <div id="arr4"></div><br>
+    <div>My hobbies in 2019:</div>
+    <div id="arr5"></div><br>
+    <div>My hobbies in 2020:</div>
+    <div id="arr6"></div><br>
+
+
+    <script>
+        const hobby = ["Chess", "Guitar", "Travelling", "Volley"];
+        document.getElementById("arr1").innerHTML = hobby;
+
+        hobby.pop();
+        document.getElementById("arr2").innerHTML = hobby;
+
+        hobby.push("Badminton");
+        document.getElementById("arr3").innerHTML = hobby;
+
+        hobby.shift();
+        document.getElementById("arr4").innerHTML = hobby;
+
+        hobby.unshift("Gaming");
+        document.getElementById("arr5").innerHTML = hobby;
+
+        hobby.splice(2, 2, "Programming");
+        document.getElementById("arr6").innerHTML = hobby;
+    </script>
+
+
+</body>
+</html>
